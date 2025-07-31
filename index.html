@@ -1,60 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ProdByShan - Beat Store</title>
-  <style>
-    body {
-      background: #0e0e0e;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      padding: 40px;
-    }
-    .beat {
-      margin-bottom: 50px;
-      border: 1px solid #444;
-      padding: 20px;
-      border-radius: 10px;
-      background-color: #1c1c1c;
-    }
-    .beat img {
-      width: 100%;
-      max-width: 400px;
-      display: block;
-    }
-    audio {
-      width: 100%;
-      margin-top: 10px;
-    }
-  </style>
+  <meta name="description" content="Official website of ProdByShan — cinematic hip-hop beats, drum kits, blogs and more." />
+  <title>ProdByShan</title>
+
+  <!-- Tailwind + Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
-<body>
-  <h1>ProdByShan - Cinematic Beats</h1>
+<body class="bg-black text-white font-sans">
+  <header class="flex justify-between items-center px-6 py-4 bg-gradient-to-r from-purple-900 to-blue-900">
+    <div class="text-2xl font-bold">PRODBYSHAN</div>
+    <nav class="space-x-4">
+      <a href="#home" class="hover:text-blue-300">Home</a>
+      <a href="#about" class="hover:text-blue-300">About</a>
+      <a href="#beats" class="hover:text-blue-300">Beats</a>
+      <a href="#store" class="hover:text-blue-300">Store</a>
+      <a href="#blog" class="hover:text-blue-300">Blog</a>
+      <a href="#contact" class="hover:text-blue-300">Contact</a>
+    </nav>
+  </header>
 
-  <div class="beat">
-    <h2>Beamer Crease</h2>
-    <img src="assets/beats/beamer crease.png" alt="Beamer Crease">
-    <audio controls>
-      <source src="assets/beats/beamer crease.mp3" type="audio/mp3">
-    </audio>
-  </div>
+  <section id="home" class="text-center py-20 px-4 bg-gradient-to-br from-black via-purple-950 to-black">
+    <h1 class="text-5xl font-bold mb-4">Crafting Cinematic Hip-Hop Sounds</h1>
+    <p class="text-xl text-gray-300 mb-6">Glitchy, Spacey, Real. Explore the world of ProdByShan.</p>
+    <a href="#beats" class="px-6 py-3 bg-purple-600 hover:bg-purple-800 rounded-lg font-bold transition">Explore Beats</a>
+  </section>
 
-  <div class="beat">
-    <h2>Deep Pockets</h2>
-    <img src="assets/beats/deep-pockets.mp4" alt="Deep Pockets">
-    <audio controls>
-      <source src="assets/beats/deep-pockets.mp3" type="audio/mp3">
-    </audio>
-  </div>
+  <section id="beats" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-6">Beat Catalog</h2>
+    <div id="beatGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Injected by script.js -->
+    </div>
+  </section>
 
-  <div class="beat">
-    <h2>In Space</h2>
-    <img src="assets/beats/in space.png" alt="In Space">
-    <audio controls>
-      <source src="assets/beats/in space.mp3" type="audio/mp3">
-    </audio>
-  </div>
+  <section id="store" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-6">Drum Kits & Packs</h2>
+    <p class="text-gray-400">Coming Soon...</p>
+  </section>
+
+  <section id="blog" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-6">Producer Notes</h2>
+    <div id="blogPosts" class="space-y-6">
+      <!-- Injected from blog.json -->
+    </div>
+  </section>
+
+  <section class="newsletter px-6 py-12 bg-zinc-900">
+    <h2 class="text-2xl font-bold mb-4 text-center">Join The Wave</h2>
+    <form id="newsletterForm" class="flex flex-col md:flex-row gap-4 max-w-2xl mx-auto">
+      <input type="email" placeholder="Your Email" required class="p-3 flex-1 rounded bg-gray-800 text-white border border-gray-600" />
+      <button type="submit" class="px-6 py-3 bg-blue-600 hover:bg-blue-800 rounded">Subscribe</button>
+    </form>
+    <p id="newsletterMsg" class="text-center mt-3 text-green-400"></p>
+  </section>
+
+  <section id="about" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="text-gray-300">I’m Shan, a beatmaker from Brampton blending cinematic soundscapes with gritty hip-hop. Whether it’s soulful melodies or glitchy textures, I make music that moves.</p>
+  </section>
+
+  <section id="contact" class="px-6 py-12">
+    <h2 class="text-3xl font-bold mb-4">Contact</h2>
+    <form id="contactForm" class="flex flex-col gap-4 max-w-2xl">
+      <input type="text" placeholder="Your Name" required class="p-3 rounded bg-gray-800 text-white border border-gray-600" />
+      <input type="email" placeholder="Your Email" required class="p-3 rounded bg-gray-800 text-white border border-gray-600" />
+      <textarea placeholder="Your Message" required class="p-3 rounded bg-gray-800 text-white border border-gray-600"></textarea>
+      <button type="submit" class="px-6 py-3 bg-purple-600 hover:bg-purple-800 rounded">Send</button>
+    </form>
+    <p id="contactMsg" class="mt-2 text-green-400"></p>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500 text-sm bg-black">
+    &copy; 2025 ProdByShan. All rights reserved. — <a href="https://solo.to/prodbyshan" class="underline" target="_blank">Socials</a>
+  </footer>
 </body>
 </html>
