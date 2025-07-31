@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+
+body {
+  @apply bg-black text-white font-sans;
+  font-family: 'Unbounded', sans-serif;
+  background: radial-gradient(circle at center, #0f0f0f, #000000);
+  overflow-x: hidden;
+}
+
+.header {
+  @apply flex justify-between items-center px-6 py-4 bg-gradient-to-r from-purple-900 to-blue-900;
+}
+
+.nav a {
+  @apply text-white mx-2 hover:text-blue-300 transition duration-300;
+}
+
+.hero {
+  @apply text-center py-20 px-4;
+  background-image: url('https://grainy-gradients.vercel.app/noise.svg'), linear-gradient(135deg, #1e002f 0%, #00282f 100%);
+  background-blend-mode: overlay;
+}
+
+.hero h1 {
+  @apply text-4xl md:text-6xl font-bold mb-4;
+}
+
+.hero p {
+  @apply text-lg md:text-xl text-gray-300 mb-6;
+}
+
+.btn {
+  @apply px-6 py-3 bg-purple-600 hover:bg-purple-800 text-white rounded-lg font-bold shadow-md transition;
+}
+
+.beats, .store, .blog, .newsletter, .about, .contact {
+  @apply px-6 py-12;
+}
+
+.beat-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.beat {
+  @apply bg-zinc-900 rounded-lg p-4 shadow-md hover:scale-[1.01] transition duration-300 border border-purple-800;
+}
+
+.beat img {
+  @apply w-full rounded mb-3;
+}
+
+.beat h3 {
+  @apply text-xl font-bold mb-2;
+}
+
+audio {
+  @apply w-full;
+}
+
+.blog-post {
+  @apply bg-gray-900 p-4 mb-4 rounded border border-blue-700;
+}
+
+.newsletter form, .contact form {
+  @apply flex flex-col gap-4 max-w-xl mx-auto;
+}
+
+input, textarea {
+  @apply p-3 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-600;
+}
+
+button {
+  @apply bg-blue-600 hover:bg-blue-800 text-white px-4 py-2 rounded;
+}
+
+.footer {
+  @apply text-center py-6 bg-black text-sm text-gray-500;
+}
