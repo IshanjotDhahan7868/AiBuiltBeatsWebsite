@@ -1,0 +1,25 @@
+[
+  {
+    "id": "bloomed-out",
+    "title": "Bloomed Out",
+    "bpm": 84,
+    "key": "Cm",
+    "tags": ["earl", "jazz", "boom-bap", "lofi"],
+    "cover": "assets/covers/bloomed-out.jpg",
+    "audio": "assets/audio/bloomed-out.mp3",
+    "licenses": [
+      {
+        "name": "MP3",
+        "price": 10,
+        "stripe": "https://buy.stripe.com/your_mp3_link",
+        "paypal": "https://www.paypal.com/ncp/payment/your_mp3_link"
+      },
+      {
+        "name": "STEMS",
+        "price": 30,
+        "stripe": "https://buy.stripe.com/your_stems_link",
+        "paypal": "https://www.paypal.com/ncp/payment/your_stems_link"
+      }
+    ]
+  }
+]
