@@ -22,4 +22,140 @@
       }
     ]
   }
+  {
+    "id": "The Map",
+    "title": "The Map",
+    "bpm": null,
+    "key": "",
+    "tags": ["kanye west type beat","chance the rapper type beat","soulful hip hop beat","gospel rap instrumental","uplifting rap beat","celebratory hip hop instrumental","sample-based hip hop","happy type beat","feel good rap beat","anthemic rap instrumental","soul sample beat","2025 hip hop instrumental","prodbyshan","joyful rap instrumental","storytelling rap beat","classic hip hop vibes","warm soul beat","church choir hip hop","retro soul rap","positive hip hop"],
+    "cover": "assets/covers/the map.jpg",
+    "audio": "assets/audio/the map.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Digital Soul",
+    "title": "Digital Soul",
+    "bpm": null,
+    "key": "",
+    "tags": ["daft punk type beat","electro funk hip hop","funky rap instrumental","robotic vocoder beat","retro future trap","dance rap instrumental","hip hop electronic fusion","experimental rap beat","funk trap instrumental","2025 hip hop instrumental","groovy rap beat","space funk hip hop","bouncy electronic beat","futuristic rap instrumental","prodbyshan"],
+    "cover": "assets/covers/daftpunk.jpg",
+    "audio": "assets/audio/daftpunk.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Map to Glory",
+    "title": "Map to Glory",
+    "bpm": null,
+    "key": "",
+    "tags": ["kanye west type beat","soulful rap instrumental","cinematic hip hop beat","epic rap instrumental","powerful hip hop beat","motivational rap instrumental","free kanye west type beat","storytelling rap beat","stadium rap beat","soul sample trap","2025 rap instrumental","anthemic rap instrumental","prodbyshan","orchestral trap beat","late night type beat"],
+    "cover": "assets/covers/map to glory.jpg",
+    "audio": "assets/audio/map to glory.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Neon Joyride",
+    "title": "Neon Joyride",
+    "bpm": null,
+    "key": "",
+    "tags": ["playboi carti type beat","lil yachty type beat","happy trap instrumental","bouncy rap beat","neon joyride type beat","fun hip hop instrumental","joyous trap beat","party rap instrumental","colorful rap beat","playful trap beat","free carti type beat","melodic trap 2025","prodbyshan","energetic rap instrumental","carefree hip hop beat","upbeat trap instrumental","carti yachty type beat","fun trap beat 2025","hype rap beat","upbeat hip hop instrumental"],
+    "cover": "assets/covers/neonjoyride.jpg",
+    "audio": "assets/audio/neonjoyride.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Timeless Constellations",
+    "title": "Timeless Constellations",
+    "bpm": null,
+    "key": "",
+    "tags": ["tyler the creator type beat","asap rocky type beat","timeless constellations","psychedelic rap instrumental","soulful trap beat","spacey hip hop beat","free tyler type beat","dreamy rap instrumental","alt hip hop beat","emotional rap beat","2025 rap instrumental","asap rocky psychedelic type beat","neo soul trap beat","reflective rap instrumental","cosmic rap beat","experimental hip hop instrumental","prodbyshan","galaxy type beat","soul rap beat","trippy hip hop beat"],
+    "cover": "assets/covers/idareyou.jpg",
+    "audio": "assets/audio/idareyou.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Digital Bloom",
+    "title": "Digital Bloom",
+    "bpm": null,
+    "key": "",
+    "tags": ["playboi carti type beat","trippie redd type beat","digital bloom beat","lofi trap instrumental","psychedelic rap beat","emotional trap instrumental","dreamy rage beat","carti x trippie type beat","free type beat 2025","spacey trap instrumental","surreal rap beat","glitchy trap beat","trippy rap instrumental","cloud rap beat","prodbyshan","melodic trap beat","underground rap instrumental","colorful trap instrumental","2025 type beat","carti trippie collab vibe"],
+    "cover": "assets/covers/callme.jpg",
+    "audio": "assets/audio/callme.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Galactic Mindstate",
+    "title": "Galactic Mindstate",
+    "bpm": null,
+    "key": "",
+    "tags": ["kid cudi type beat","logic type beat","kid cudi x logic","space type beat","cosmic hip hop instrumental","uplifting rap beat","dreamy type beat","galaxy beat","astro vibes","prodbyshan"],
+    "cover": "assets/covers/astroworld.jpg",
+    "audio": "assets/audio/astroworld.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Velvet Ashes",
+    "title": "Velvet Ashes",
+    "bpm": null,
+    "key": "",
+    "tags": ["asap rocky type beat","travis scott type beat","psychedelic trap instrumental","cinematic dark trap","luxury rap beat","spacey hip hop instrumental","prodbyshan","grungy trap beat","moody trap instrumental","underground rap beat","fashion runway type beat","dreamy trap 2025","trap beat with ambience","atmospheric rap instrumental","vhs aesthetic beat"],
+    "cover": "assets/covers/velvet ashes.jpg",
+    "audio": "assets/audio/velvet ashes.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Bloomed Out",
+    "title": "Bloomed Out",
+    "bpm": null,
+    "key": "",
+    "tags": ["earl sweatshirt type beat","jazz boom bap instrumental","lofi hip hop beat","abstract rap beat","introspective boom bap","dusty jazz samples","underground rap instrumental","free boom bap beat 2025","vinyl crackle hip hop","moody jazz rap","prodbyshan","late night freestyle beat","poetic rap instrumental","raw underground hip hop","earl sweatshirt jazz type beat"],
+    "cover": "assets/covers/earl.jpg",
+    "audio": "assets/audio/earl.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  },
+  {
+    "id": "Porcelain Veins",
+    "title": "Porcelain Veins",
+    "bpm": null,
+    "key": "",
+    "tags": ["jid type beat","denzel curry type beat","cinematic rap instrumental","floaty hip hop beat","moody trap instrumental","dreamy hip hop 2025","spacey rap beat","storytelling rap instrumental","emotional rap beat","fragile but powerful beat","kintsugi inspired beat","porcelain rap instrumental","prodbyshan","cinematic trap beat","late night rap instrumental","2025 hip hop beat"],
+    "cover": "assets/covers/porcelain.jpg",
+    "audio": "assets/audio/porcelain.mp3",
+    "licenses": [
+      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
+      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
+    ]
+  }
+]
+
+
+
+
+
 ]
