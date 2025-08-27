@@ -1,5 +1,28 @@
 [
   {
+    "id": "bloomed-out",
+    "title": "Bloomed Out",
+    "bpm": 84,
+    "key": "Cm",
+    "tags": ["earl", "jazz", "boom-bap", "lofi"],
+    "cover": "assets/covers/bloomed-out.jpg",
+    "audio": "assets/audio/bloomed-out.mp3",
+    "licenses": [
+      {
+        "name": "MP3",
+        "price": 10,
+        "stripe": "https://buy.stripe.com/your_mp3_link",
+        "paypal": "https://www.paypal.com/ncp/payment/your_mp3_link"
+      },
+      {
+        "name": "STEMS",
+        "price": 30,
+        "stripe": "https://buy.stripe.com/your_stems_link",
+        "paypal": "https://www.paypal.com/ncp/payment/your_stems_link"
+      }
+    ]
+  },
+  {
     "id": "The Map",
     "title": "The Map",
     "bpm": null,
@@ -104,20 +127,7 @@
     ]
   },
   {
-    "id": "Bloomed Out",
-    "title": "Bloomed Out",
-    "bpm": null,
-    "key": "",
-    "tags": ["earl sweatshirt type beat","jazz boom bap instrumental","lofi hip hop beat","abstract rap beat","introspective boom bap","dusty jazz samples","underground rap instrumental","free boom bap beat 2025","vinyl crackle hip hop","moody jazz rap","prodbyshan","late night freestyle beat","poetic rap instrumental","raw underground hip hop","earl sweatshirt jazz type beat"],
-    "cover": "assets/covers/earl.jpg",
-    "audio": "assets/audio/earl.mp3",
-    "licenses": [
-      { "name": "MP3", "price": 10, "stripe": "", "paypal": "" },
-      { "name": "STEMS", "price": 30, "stripe": "", "paypal": "" }
-    ]
-  },
-  {
-    "id": "Porcelain Veins",
+    "id": "porcelain-veins",
     "title": "Porcelain Veins",
     "bpm": null,
     "key": "",
@@ -130,4 +140,3 @@
     ]
   }
 ]
-
