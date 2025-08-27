@@ -30,12 +30,22 @@
     <a href="#beats" class="px-6 py-3 bg-purple-600 hover:bg-purple-800 rounded-lg font-bold transition">Explore Beats</a>
   </section>
 
-  <section id="beats" class="px-6 py-12">
-    <h2 class="text-3xl font-bold mb-6">Beat Catalog</h2>
-    <div id="beatGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Injected by script.js -->
-    </div>
-  </section>
+  <section id="beats" class="section">
+  <h2>Beat Catalog</h2>
+
+  <div class="toolbar">
+    <input id="search" placeholder="Search beats, tags, keys..." />
+    <select id="sort">
+      <option value="newest">Newest</option>
+      <option value="title">Title A–Z</option>
+      <option value="bpm-asc">BPM ↑</option>
+      <option value="bpm-desc">BPM ↓</option>
+    </select>
+    <div id="tag-chips"></div>
+  </div>
+
+  <div id="beat-grid" class="grid"></div>
+</section>
 
   <section id="store" class="px-6 py-12">
     <h2 class="text-3xl font-bold mb-6">Drum Kits & Packs</h2>
